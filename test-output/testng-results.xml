@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="98070" started-at="2016-04-22T02:55:41Z" finished-at="2016-04-22T02:57:19Z">
+  <suite name="Default suite" duration-ms="91724" started-at="2016-04-24T05:22:30Z" finished-at="2016-04-24T05:24:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="98070" started-at="2016-04-22T02:55:41Z" finished-at="2016-04-22T02:57:19Z">
+    <test name="Default test" duration-ms="91724" started-at="2016-04-24T05:22:30Z" finished-at="2016-04-24T05:24:02Z">
       <class name="amazontest.FlipkartTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:amazontest.FlipkartTest@7c16905e]" name="setUp" is-config="true" duration-ms="24303" started-at="2016-04-21T19:55:41Z" finished-at="2016-04-21T19:56:05Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:amazontest.FlipkartTest@7c16905e]" name="setUp" is-config="true" duration-ms="20112" started-at="2016-04-23T22:22:30Z" finished-at="2016-04-23T22:22:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addToCart()[pri:0, instance:amazontest.FlipkartTest@7c16905e]" name="addToCart" duration-ms="72641" started-at="2016-04-21T19:56:05Z" finished-at="2016-04-21T19:57:18Z">
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:amazontest.FlipkartTest@7c16905e]" name="addToCart" duration-ms="69010" started-at="2016-04-23T22:22:50Z" finished-at="2016-04-23T22:23:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:amazontest.FlipkartTest@7c16905e]" name="teardown" is-config="true" duration-ms="1108" started-at="2016-04-21T19:57:18Z" finished-at="2016-04-21T19:57:19Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:amazontest.FlipkartTest@7c16905e]" name="teardown" is-config="true" duration-ms="2584" started-at="2016-04-23T22:23:59Z" finished-at="2016-04-23T22:24:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -55,11 +55,14 @@ public class FlipkartTest {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.name(("Smart Watch"))));
         driver.findElement(By.name(("Smart Watch"))).click();
         
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.name(("Bingo U8 Smartwatch"))));
-        driver.findElement(By.name(("Bingo U8 Smartwatch"))).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.name(("Asus ZenWatch 2 Silver Case with Rubber Strap Sliver/rubber taupe Smartwatch"))));
+        driver.findElement(By.name(("Asus ZenWatch 2 Silver Case with Rubber Strap Sliver/rubber taupe Smartwatch"))).click();
         
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.name(("BUY NOW"))));
         driver.findElement(By.name(("BUY NOW"))).click();
+        
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("Deny")));
+        driver.findElement(By.name("Deny")).click();
         
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.className(("android.widget.ImageButton"))));
         driver.findElement(By.className("android.widget.ImageButton")).click();

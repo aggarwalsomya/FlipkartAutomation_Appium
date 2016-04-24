@@ -5,6 +5,7 @@
     <classes>
       <class name="amazontest.FlipkartTest">
         <methods>
+          <include name="teardown"/>
           <include name="setUp"/>
           <include name="addToCart"/>
         </methods>
